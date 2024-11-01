@@ -79,7 +79,7 @@
     font-weight: bold;
   }
   .game-container {
-    width: 400px; /* Perbesar lebar kontainer */
+    width: 400px; 
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
@@ -87,7 +87,7 @@
     transition: transform 0.3s ease;
 }
 .game-container:hover {
-    transform: scale(1.05); /* Perbesar sedikit saat dihover */
+    transform: scale(1.05);
 }
 input[type="number"] {
     padding: 10px;
@@ -100,7 +100,7 @@ input[type="number"] {
 }
 
 input[type="number"]:focus {
-    border-color: #4CAF50; /* Warna hijau saat fokus */
+    border-color: #4CAF50; 
     outline: none;
 }
 button {
@@ -116,7 +116,7 @@ button {
 
 button:hover {
     background-color: #45a049;
-    transform: scale(1.05); /* Efek perbesar sedikit saat dihover */
+    transform: scale(1.05); 
 }
 #result, #hint {
     font-size: 18px;
@@ -126,7 +126,7 @@ button:hover {
 }
 
 #result {
-    font-size: 20px; /* Buat teks hasil lebih besar */
+    font-size: 20px;
     transition: color 0.3s ease;
 }
 #high-score {
