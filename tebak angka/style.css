@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+  }
+  
+  .welcome-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .welcome-container h1 {
+    color: #333;
+  }
+  
+  .welcome-container button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .welcome-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .game-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-container h1 {
+    color: #333;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result, #hint {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .game-container {
+    width: 400px; /* Perbesar lebar kontainer */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.game-container:hover {
+    transform: scale(1.05); /* Perbesar sedikit saat dihover */
+}
+input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50; /* Warna hijau saat fokus */
+    outline: none;
+}
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Efek perbesar sedikit saat dihover */
+}
+#result, #hint {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+#result {
+    font-size: 20px; /* Buat teks hasil lebih besar */
+    transition: color 0.3s ease;
+}
+#high-score {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

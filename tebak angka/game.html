@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebak Angka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tebak Angka</h1>
+    <p>Tebak angka antara 1 dan 100:</p>
+    <input type="number" id="guess-input" min="1" max="100" placeholder="Masukkan tebakan">
+    <button onclick="checkGuess()">Tebak</button>
+    <p id="result"></p>
+    <p id="hint"></p>
+    <p id="high-score">Skor Tertinggi: -</p>
+    <button onclick="resetGame()">Main Lagi</button>
+    <button onclick="goToHomePage()">Kembali ke Halaman Awal</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
